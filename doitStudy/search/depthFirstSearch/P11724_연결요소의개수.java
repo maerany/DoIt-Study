@@ -62,6 +62,7 @@ public class P11724_연결요소의개수 {
             A[e].add(s);
         }
 
+        //
         int count = 0; // 연결요소의 개수가 count
         for(int i = 1; i < n+1; i++){ // visited false일 때, 연결되는 부분이므로 count++
             if(!visited[i]){
